@@ -37,7 +37,29 @@ Tal como se ve en la figura seleccionamos Python 3.10.12 (cisco) que se mostrar�
 
 Simplemente escribimos en la línea de comandos: **deactivate**
 
+## 6. ASCII Network Topology
 
+Descripción
+
+network_topology.py consulta la API REST de Cisco Packet Tracer y genera una representación textual de la topología conocida.
+
+El script organiza los hosts según el dispositivo de red y la interfaz a los que aparecen asociados en los datos proporcionados por la API.
+
+Funcionalidades
+
+* Autenticación mediante Service Ticket.
+
+* Consulta del inventario de dispositivos de red.
+
+* Consulta del inventario de hosts.
+
+* Agrupación de hosts por dispositivo e interfaz.
+
+* Visualización de hostname, dirección IP y dirección MAC.
+
+* Representación jerárquica mediante caracteres ASCII.
+
+* Identificación de dispositivos para los que no se encontraron hosts asociados.
 
 ## Antes de ejecutar los scripts
 
