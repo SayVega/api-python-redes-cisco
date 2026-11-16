@@ -3,8 +3,8 @@ from collections import defaultdict
 
 BASE_URI = "http://localhost:58000/api/v1"
 
-USERNAME = "cisco"
-PASSWORD = "cisco123!"
+USERNAME = "admin"
+PASSWORD = "Admin123"
 
 
 def get_ticket():
